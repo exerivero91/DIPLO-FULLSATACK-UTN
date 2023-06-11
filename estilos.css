@@ -1,0 +1,670 @@
+header,
+section,
+footer {
+    width: 960px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+h3 {
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    color: #8b3b49;
+}
+
+p {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 180px;
+    background-color: #8b3b49;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 460px;
+    height: 140px;
+    margin: 10px;
+    background-color: aliceblue;
+    float: left;
+    margin-top: 20px;
+    background: url(logo4.jpg) center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#botones {
+    width: 280px;
+    height: 100px;
+    margin-right: 10px;
+    background-color: #d7d0d0;
+    float: right;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+#botones li {
+    list-style-type: none;
+    text-align: justify;
+
+}
+
+#botones li a {
+    text-decoration: none;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 25px;
+    color: #8b3b49;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#servicios, #clientes {
+    height: 500px;
+    background: linear-gradient(45deg, #ef6161 25%,#8b3b49 95%);
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#service,
+#instrumentos,
+#clients {
+    width: 450px;
+    height: 60px;
+    background: linear-gradient(45deg, #d7d0d0 25%, #8b3b49 95%);
+    border-radius: 5px;
+    border: 5px ridge #323740;
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+    font-weight: bold;
+}
+
+#descripciongps,
+#descripcionEstacion,
+#descripcionDrone,
+#descripcionNivel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #8b3b49;
+}
+
+#agrimensura {
+    height: 180px;
+    width: 430px;
+    float: left;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px ridge #323740;
+    border-radius: 10px;
+    background-color: linear-gradient(45deg, #d7d0d0 25%,#8b3b49 95%);    
+    color:#323740;
+    font-weight: bold;  
+    padding: 10px;
+    margin: 5px;
+}
+#agrimensura li {
+    text-decoration: none;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+    color: darkred;
+    font-weight: bold;
+    }
+
+#topografia {
+    height: 180px;
+    width: 430px;
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    border: 5px ridge#323740;
+    border-radius: 10px;
+    background-color: linear-gradient(45deg, #d7d0d0 25%,#8b3b49 95%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #323740;
+    font-weight: bold;
+}
+
+#topografia li {
+    text-decoration: none;
+    text-align: justify;
+    line-height: 25px;
+    color: darkred;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#obras {
+    height: 180px;
+    width: 430px;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+    border: 5px ridge #323740;
+    border-radius: 10px;
+    background-color: linear-gradient(45deg, #d7d0d0 25%,#8b3b49 95%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #323740;
+    font-weight: bold;
+}
+#obras li {
+    text-decoration: none;
+    text-align: justify;
+    line-height: 25px;
+    color: darkred;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#alquiler {
+    height: 180px;
+    width: 430px;
+    margin: 5px;
+    padding: 10px;
+    float: right;
+    border: 5px ridge #323740;
+    border-radius: 10px;
+    background-color:linear-gradient(45deg, #d7d0d0 25%,#8b3b49 95%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #323740;
+    font-weight: bold;
+}
+
+#alquiler li {
+    text-decoration: none;
+    text-align: justify;
+    line-height: 25px;
+    color: darkred;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+#instrumental {
+    background-color: rgb(207, 78, 78);
+}
+
+#instrumentos {
+    width: 450px;
+    height: 50px;
+    clear: both;
+    margin: auto;
+
+}
+
+#gps {
+    height: 550px;
+    width: 25%;
+    float: left;
+    
+}
+
+#gps h3 a,
+#estacion h3 a,
+#drone h3 a,
+#nivel h3 a {
+    color: #323740;
+}
+
+#estacion {
+    height: 550px;
+    width: 25%;
+    float: left;
+
+}
+
+#drone {
+    height: 550px;
+    width: 25%;
+    float: left;
+}
+
+#nivel {
+
+    height: 550px;
+    width: 25%;
+    float: left;
+}
+    
+
+
+
+#clientes {
+    height: 500px;
+    background-color: firebrick;
+}
+
+#clients {
+    width: 450px;
+    height: 50px;
+    background-color: aliceblue;
+    clear: both;
+    margin: auto;
+
+}
+
+#vaisman {
+    width: 300px;
+    height: 150px;
+    background-color: #d7d0d0;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    background: url(AGRIMENSURA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#semisa {
+    width: 300px;
+    height: 150px;
+    background-color: #d7d0d0;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    background: url(SEMISA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#enerfe {
+    width: 300px;
+    height: 150px;
+    background-color: #d7d0d0;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    background: url(ENERFE.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+#pilar {
+    width: 300px;
+    height: 150px;
+    background-color: #d7d0d0;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url(obratec.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cosentino {
+    width: 300px;
+    height: 150px;
+    background-color: #d7d0d0;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: url(CONSTRUCCION.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#remax {
+    width: 300px;
+    height: 150px;
+    background-color: #d7d0d0;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: url(remax.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#modulo1 {
+    background: linear-gradient(45deg, #ef6161 25%, #8b3b49 95%);
+}
+
+
+footer {
+    height: 160px;
+    background-color: #8b3b49;
+    box-sizing: border-box;
+}
+
+#telefono {
+    width: 200px;
+    height: 50px;
+    background-color: #d7d0d0;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: darkred;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#email {
+    width: 200px;
+    height: 50px;
+    background-color: #d7d0d0;
+    margin-right: 10px;
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: darkred;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#direccion {
+    width: 200px;
+    height: 50px;
+    background-color: #d7d0d0;
+    margin-top: 80px;
+    float: left;
+    margin-left: -200px;
+    border-radius: 5px;
+    color: darkred;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+#linkedin {
+    width: 200px;
+    height: 50px;
+    background-color: #d7d0d0;
+    margin-top: 80px;
+    margin-right: -200px;
+    padding: 5px;
+    float: right;
+    border-radius: 5px;
+    color: darkred;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#linkedin p a {
+    text-decoration: none;
+}
+
+.custom-col-login {
+    width: 33.33%;
+}
+
+.custom-col-images {
+    width: 33.33%;
+}
+
+#marca {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background: url(logo2.jpg) center;
+    background-size: cover;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    header, section, footer {
+        width: 599px;
+    }
+    
+    #logo {
+        width: 320px;
+        height: 140px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #botones {
+        width: 180px;
+        height: auto;
+    }
+
+
+    #servicios {
+        height: 500px;
+        padding: 7px;
+    }
+
+    #service {
+        width: 80%;
+        height: auto;
+        font-size: 15px;
+        padding: 1px;
+    }
+
+    #agrimensura,
+    #topografia,
+    #obras,
+    #alquiler {
+        height: 170px;
+        width: 250px;
+        float: left;
+        border-radius: 10px;
+        font-size: 80%;
+        padding: 1%;
+        margin: 5px;
+    }
+
+
+    #instrumentos {
+        /* width: 80%;
+        height: auto; */
+        font-size: 15px;
+    }
+
+    #modulo1 {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+
+    #praderas {
+        width: 100%;
+    }
+
+    #gps,
+    #estacion,
+    #drone,
+    #nivel {
+        width: 50%;
+        height: 270px;
+    }
+
+    #clients {
+        width: 80%;
+        height: auto;
+        font-size: 15px;
+        padding: 1px;
+
+    }
+
+    #vaisman,
+    #semisa,
+    #enerfe,
+    #pilar,
+    #cosentino,
+    #remax {
+        width: 180px;
+        height: 110px;
+        margin-top: 40px;
+        margin-left: 75px;
+    }
+
+    .custom-col-login {
+        width: 100%;
+    }
+
+    .custom-col-images {
+        width: 50%;
+    }
+
+}
+
+@media all and (max-width: 599px) {
+    header, section, footer {
+        width: auto;         
+       
+    }
+
+    #header {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+    
+    #logo {
+        width: 100%;
+        height: 50px;
+        background-repeat: no-repeat ;
+        background-size: contain;
+        float: none;
+        margin: auto;
+    }   
+    
+    #botones {
+        width: 200px;
+        height: auto;
+        text-align: justify;
+        float: none;
+        margin: auto;
+        
+    }
+
+    #praderas, 
+    #gasoducto, 
+    #rutas {
+         font-size: 15px;
+    }
+
+
+    #servicios {
+        height: 500px;
+        padding: 0px;
+        
+    }
+    
+    #service {
+        width: 80%;
+        height: auto;
+        font-size: 15px;
+        padding: 1px;
+    }
+    
+    #agrimensura, #topografia, #obras, #alquiler {
+        width: 80%;
+        height: 105px; 
+        padding: 0;
+        margin: 0;           
+        float: left;
+        margin-left: 45px;
+    }
+
+    #agrimensura li, #topografia li, #obras li, #alquiler li {
+        line-height: 85%;
+        font-size: 15px;
+        margin: 0;
+        
+        }
+    
+ 
+    #instrumentos {
+        width: 80%;
+        height: auto;
+        font-size: 15px;
+        padding: 1px;
+    
+    }
+    
+    #gps, #estacion, #drone, #nivel {
+        width: 100%;
+        height: 140px;
+        float: none;
+    }
+
+    
+    #clients {
+        width: 80%;
+        height: auto;
+        font-size: 15px;
+        padding: 1px;
+
+    
+    }
+    
+    #vaisman, #semisa, #enerfe,#pilar, #cosentino, #remax  {
+        width: 150px;
+        height: 100px;
+        margin:25px;
+    }
+    
+
+
+
+#telefono, #email, #direccion, #linkedin {
+    width: 80%;
+    height: 30px; 
+    padding: 0;
+    margin: auto;
+    margin-top: 3px;           
+    float: left;
+    margin-left: 45px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+
+}
+
+#marca {
+    display: none;
+}
+
+.custom-col-login {
+    width: 100%;
+}
+
+.custom-col-images {
+    width: 100%;
+}
+    
+                            }
